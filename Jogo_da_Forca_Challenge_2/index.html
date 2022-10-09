@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+		<title>Jogo da Forca</title>
+        
+    </head>
+
+    <body>
+        <header>
+            <section class="recipiente">
+                <img class="logo" src="Logo.png" alt="Logo da Alura">
+                
+            </section>
+        </header>
+
+        <main>
+            
+            <section>
+                    <div id="btn1">
+                        <button onclick="iniciarJogo()" id="botaoIniciar" class="botaoIniciar">Iniciar Jogo</button>
+                    </div>    
+                    <div id="btn2">
+                        <button onclick="botaoAdd()" id="botaoAdd" class="botaoAdd">Adicionar Palavras</button>
+                    </div>
+
+            </section>    
+        </main>
+
+        <div id="canva" oculto>
+            <canvas width="800" height="400"></canvas>  
+        </div>
+
+        <div id="btn3" oculto>
+            <button onclick="novoJogo()" id="novoJogo" class="novoJogo">Novo Jogo</button>
+        </div>
+
+        
+            <textarea name="input-palavras" rows="20" cols="40"  id="inputPalavras" 
+            class="input-palavras" 
+            placeholder="Digite aqui a nova palavra"></textarea>
+       
+
+        <div id="btn4" oculto>
+            <button onclick="salvar()" id="salvar" class="salvar">Salvar</button>
+        </div>
+
+        <div id="btn5" oculto>
+            <button onclick="novoJogo2()" id="novoJogo2" class="novoJogo2">Novo Jogo</button>
+        </div>
+
+        <footer> 
+            <div> 
+                <center>
+                <a href="https://www.linkedin.com/in/jaciara-de-araujo/">
+                    <img src="linkedin.png"  width="30" height="30" alt="Logo Linkedln"></a>
+          
+                    <a href="https://github.com/jaciaradearaujo">
+                    <img src="GitHub.png" width="30" height="30" alt="Logo GitHub"></a>
+                </center>
+                
+                <p id="copyright">&copy; Copyright Jaciara Germano de Araujo - 2022</p><br>
+                <p id="rodape">Alura - ONE Oracle Next Education</p> 
+            </div>
+        </footer>
+
+    <script src="canvas.js"></script>  
+    <script src="forca.js"></script>    
+    
+    </body>
+
+</html>
+
+
+
+
+	

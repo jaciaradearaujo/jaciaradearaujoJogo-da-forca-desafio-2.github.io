@@ -1,0 +1,159 @@
+.logo {
+    width: 31,09px;
+    height: 48px;
+    left: 44px;
+    background-color: rgb(243, 236, 227);
+    position: relative;
+    top: 10px;
+}
+
+header {
+    background-color: rgb(227, 227, 236);
+}
+
+body {
+    background-color:rgb(221, 218, 233);
+}
+
+.botaoIniciar {
+    font-weight: bold;
+    font-size: 30px;
+    background-color:rgb(17, 20, 231);
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin: 10% auto 4% auto;
+    text-align: center;
+    color:aliceblue;
+    border-radius: 15px;
+    
+
+}
+
+.botaoIniciar:hover {
+    background-color:rgb(31, 199, 53);
+    color: black
+}
+
+.botaoAdd {
+    font-weight: bold;
+    font-size: 30px;
+    background-color:rgb(17, 20, 231);
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin: 0 auto 4% auto;
+    text-align: center;
+    color:rgb(239, 238, 245);
+    border-radius: 15px;
+}
+
+.botaoAdd:hover {
+    background-color:rgb(31, 199, 53);
+    color: black
+}
+
+#canva {
+    background-color:rgb(145, 124, 238);
+    width: 800px;
+    height: 400px;
+    border: 5px solid 0, 0, 0, 0,rgb(36, 4, 153) ;
+    left: 600px;
+    position: relative;    
+}
+
+.novoJogo:hover {
+    background-color:rgb(31, 199, 53);
+    color: write;
+}
+
+.novoJogo {
+    font-weight: bold;
+    font-size: 30px;
+    background-color:rgb(17, 20, 231);
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin: 50px auto 4% auto;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(239, 238, 245);
+}
+
+.novoJogo2 {
+    font-weight: bold;
+    font-size: 30px;
+    background-color:blue;
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin: -20px auto -6.1% auto;
+    text-align: center;
+    color:aliceblue;
+    border-radius: 15px;
+}
+
+.novoJogo2:hover {
+    background-color:rgb(31, 199, 53);
+    color: rgb(87, 3, 243);
+}
+
+#inputPalavras {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(59, 59, 92);
+    padding: 10px 10px;
+    margin-top: 4%;
+    height: 100px;
+    width: 300px;
+    left: 800px;
+    position: relative;
+    background-color: rgb(192, 190, 197);
+
+}
+
+.salvar {
+    font-weight: bold;
+    font-size: 30px;
+    background-color:blue;
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin: 40px auto 4% auto;
+    text-align: center;
+    color:aliceblue;
+    border-radius: 15px;
+}
+
+.salvar:hover {
+    background-color:rgb(31, 199, 53);
+    color: rgb(49, 10, 192);
+}    
+
+
+footer {
+    background-color: rgb(225, 225, 236);
+    padding: 30px 50px;
+    margin-top: 95px; 
+     
+
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(17, 17, 16);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#rodape {
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+
