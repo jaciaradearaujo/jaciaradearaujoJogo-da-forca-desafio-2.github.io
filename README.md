@@ -3,7 +3,7 @@
  #Challenge ONE | Lógica de Programação - Jogo da Forca
 
 <p align="center" >
-     <img width="300" heigth="200" src="https://user-images.githubusercontent.com/101413385/190004642-cba5ba2b-281e-47cf-96a7-d4b782382a90.png">
+     <img width="300" heigth="200" src="https://user-images.githubusercontent.com/109833305/201811060-fcf444e8-4ed5-4157-863e-ec1702f85eff.gif">
 </p>#
 
 ### Seja bem vindo ao repositório do Jogo da Forca de texto! Passos fundamentais:
